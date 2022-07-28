@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+body{
+    max-width: 1500px;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    max-width: 200px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 180px;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+header{
+    display: grid;
+}
+ul{
+    display: none;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+header button{
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin: 12px;
+}
+nav{
+    background-color: rgb(3, 1, 97);
+    color: white;
+}
+p{
+    line-height: 1.5;
+}
+main{
+    padding: 10px;
+}
+#about h1{
+    margin-bottom: 0;
+}
+#role{
+    margin-top: 0;
+    text-align: center;
+}
+.contact-info {
+    text-align: center;
+}
+nav a img{
+    width: 45px;
+    height: 45px;
+}
