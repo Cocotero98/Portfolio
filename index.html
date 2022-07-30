@@ -14,16 +14,19 @@
         <header>
             
             <nav>
-                <a href="https://www.linkedin.com/in/agustin-aguilar98/"><img src="assets/linkedin.webp" alt="Agustin Aguilar LinkedIn"></a>
-                <a href="mailto:aguilarag98@gmail.com"><img src="assets/mail.webp" alt="Agustin Aguilar email"></a>
-                <ul>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/agustin-aguilar98/" ><img src="assets/linkedin.webp" alt="Agustin Aguilar LinkedIn"></a>
+                    <a href="mailto:aguilarag98@gmail.com"><img src="assets/mail.webp" alt="Agustin Aguilar email"></a>
+                </div>
+                
+                <ul id="navMenu">
                     <li><a href="#about">About me</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                 </ul>
-                <button>&#9776;</button>
+                <button id="navBtn">&#9776;</button>
             </nav>
             <img src="assets/me.jpeg" alt="Agustin Aguilar">
         </header>
@@ -38,54 +41,84 @@
                 </p>
                 <p class="contact-info"><a href="mailto:aguilarag98@gmail.com">aguilarag98@gmail.com</a> | +542477503121</p>
             </div>
-            <hr>
             <div id="experience">
                 <h2>Experience</h2>
             </div>
             <hr>
             <div id="projects">
                 <h2>Projects</h2>
+                <div>
+                    <h3>Falling Skies</h3>
+                    <i>HTML | CSS | JavaScript | OOP</i>
+                    <p>This web application takes user location from a form and uses NASA and geolocation APIs 
+                    to show the 4 closest fireballs to that location. It also uses APIs to show natural events 
+                    and a daily image.</p>
+                    <iframe width="560" src="https://www.youtube.com/embed/LFGbOGOxbfo" title="Falling Skies" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h3>Pergamino Chamber of Commerce</h3>
+                    <i>HTML | CSS | JavaScript</i>
+                    <p>This website is fully responsive, using different image sizes for small, medium, and large views. 
+                    It uses JavaScript to show the last visit and fetch a weather API, obtaining the city's weather.</p>
+                    <iframe width="560" src="https://www.youtube.com/embed/kMG1Lez5ipc" title="Pergamino Chamber of Commerce" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                
             </div>
             <hr>
             <div id="education">
                 <h2>Education</h2>
-                <p><strong>Bachelor's degree in applied technology</strong><br>
-                Brigham Young University-Idaho<br>
+                <div class="wrapper">
+                   <p><strong>Bachelor's degree in applied technology</strong><br>
+                Brigham Young University-Idaho<br>2026<br><button id="detailsOneBtn">See more...</button>
                 </p>	
                 <span class="year-location">2026 <br> Rexburg, Idaho, U.S.A.</span>
-                <ul>
+                <ul id="detailsOne">
                     <li>Configure and resolve issues related to software, network, and security in support of desktop computers.</li>
                     <li>Design and develop web pages, sites, and applications.</li>
                     <li>Design and develop relational databases and applications.</li>
                     <li>Design and develop computer programs.</li>
                     <li>Install, configure, and troubleshoot network routers, switches, and servers.</li>
-                </ul>
-                <p><strong>Web Development Certificate</strong><br>
-                    Brigham Young University-Idaho<br>
+                </ul> 
+                </div>
+                
+                <div class="wrapper">
+                    <p><strong>Web Development Certificate</strong><br>
+                    Brigham Young University-Idaho<br>April 2023<br><button id="detailsTwoBtn">See more...</button>
                     </p>	
                     <span class="year-location">April 2023 <br> Rexburg, Idaho, U.S.A.</span>
-                    <ul>
+                    <ul id="detailsTwo">
                         <li>HTML, CSS, JavaScript, databases, and server side development using PHP or .NET Node</li>
                         <li>Write operational code to pass and obtain data from a server including PHP and JavaScript</li>
                         <li>Inject data into the DOM (document object model) for dynamic web site applications</li>
                         <li>Demonstrate proficiency in SQL code to implement a CRUD (Create, Read, Update, and Delete) management tool using a web interface</li>
                         <li>Show skill with database servers (Relational and NoSQL) and tools to design and build basic databases needed for dynamic web applications</li>
                     </ul>
-                <p><strong>Web and Computer Programming Certificate</strong><br>
-                    Brigham Young University-Idaho<br>
+                </div>
+                
+                    <div class="wrapper">
+                        <p><strong>Web and Computer Programming Certificate</strong><br>
+                    Brigham Young University-Idaho<br>April 2022<br><button id="detailsThreeBtn">See more...</button>
                     </p>	
                     <span class="year-location">April 2022 <br> Rexburg, Idaho, U.S.A.</span>
-                    <ul>
+                    <ul id="detailsThree">
                         <li>Write programs to accomplish meaningful tasks in a variety of domains.</li>
                         <li>Design websites that are visually appealing and effective.</li>
                         <li>Develop dynamic web pages that follow industry standards and best practices.</li>
                         <li>Learn and apply new technology and techniques in future programming.</li>
                     </ul>
-                <p><strong>PathwayConnect Certificate</strong><br>
-                    BYU-Pathway Worldwide<br>
+                    <a href="">See Certificate</a>
+                    </div>
+                
+                    <div class="wrapper">
+                        <p><strong>PathwayConnect Certificate</strong><br>
+                    BYU-Pathway Worldwide<br>July 2021<br><button id="detailsFourBtn">See more...</button>
                     </p>	
                     <span class="year-location">July 2021 <br>U.S.A.</span>
-                    <ul>
+                    <ul id="detailsFour">
                         <li>English language speaking & writing</li>
                         <li>Online teamwork & collaboration</li>
                         <li>Leadership & time management</li>
@@ -93,11 +126,16 @@
                         <li>Mathematical reasoning</li>
                         <li>Effective communication</li>
                     </ul>
+                    <a href="">See Certificate</a>
+                    </div>
+                
             </div>
             <hr>
             <div id="skills">
                 <h2>Skills</h2>
                 <h3>Programing Skils</h3>
+                <img src="assets/python.png" alt="Python Logo">
+                
                 <div id="progSkills"></div>
                 <h3>Other Skills</h3>
                 <ul>
