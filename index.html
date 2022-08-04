@@ -11,33 +11,33 @@
         <link href="css/large.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <header>
+        <header id="header">
             
             <nav>
                 <div class="social-media">
-                    <a href="https://www.linkedin.com/in/agustin-aguilar98/" ><img src="assets/linkedin.webp" alt="Agustin Aguilar LinkedIn"></a>
-                    <a href="mailto:aguilarag98@gmail.com"><img src="assets/mail.webp" alt="Agustin Aguilar email"></a>
+                    <a href="https://www.linkedin.com/in/agustin-aguilar98/" ><img src="assets/linkedin.png" alt="Agustin Aguilar LinkedIn"></a>
+                    <a href="mailto:aguilarag98@gmail.com"><img src="assets/mail.png" alt="Agustin Aguilar email"></a>
                 </div>
                 
                 <ul id="navMenu">
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a class="navLinks" href="#header">About me</a></li>
+                    <!-- <li><a class="navLinks" href="#experience">Experience</a></li> -->
+                    <li><a class="navLinks" href="#projects">Projects</a></li>
+                    <li><a class="navLinks" href="#education">Education</a></li>
+                    <li><a class="navLinks" href="#skills">Skills</a></li>
                 </ul>
                 <button id="navBtn">&#9776;</button>
             </nav>
-            <img src="assets/me.jpeg" alt="Agustin Aguilar">
+            <img id="me-image" src="assets/me.jpeg" alt="Agustin Aguilar">
         </header>
         <main>
             <div id="about">
                 <h1>Agustin Aguilar</h1>
                 <p id="role"><strong>Software & Web Developer</strong></p>
                 <p>
-                    Hello! Welcome to my eportfolio. My name is Agustin and I'm a certified Junior Developer 
-                    and an online student of Applied Technology at BYU-Idaho. Right now I'm looking for opportunities to adquire
-                    more experience in software development and grow in the IT industry. Take a look at my <a href="#projects">projects</a>!
+                    Hello, I'm a certified Junior Developer and an online student of Applied Technology at BYU-Idaho. 
+                    Right now, I'm looking for opportunities to adquire more experience in software development and grow in the 
+                    IT industry. Go see my <a href="#projects">projects</a>!
                 </p>
                 <p class="contact-info"><a href="mailto:aguilarag98@gmail.com">aguilarag98@gmail.com</a> | +542477503121</p>
             </div>
@@ -73,7 +73,7 @@
                 <h2>Education</h2>
                 <div class="wrapper">
                    <p><strong>Bachelor's degree in applied technology</strong><br>
-                Brigham Young University-Idaho<br>2026<br><button id="detailsOneBtn">See more...</button>
+                Brigham Young University-Idaho<br>2026<br><button id="detailsOneBtn">See details...</button>
                 </p>	
                 <span class="year-location">2026 <br> Rexburg, Idaho, U.S.A.</span>
                 <ul id="detailsOne">
@@ -87,7 +87,7 @@
                 
                 <div class="wrapper">
                     <p><strong>Web Development Certificate</strong><br>
-                    Brigham Young University-Idaho<br>April 2023<br><button id="detailsTwoBtn">See more...</button>
+                    Brigham Young University-Idaho<br>April 2023<br><button id="detailsTwoBtn">See details...</button>
                     </p>	
                     <span class="year-location">April 2023 <br> Rexburg, Idaho, U.S.A.</span>
                     <ul id="detailsTwo">
@@ -101,7 +101,7 @@
                 
                     <div class="wrapper">
                         <p><strong>Web and Computer Programming Certificate</strong><br>
-                    Brigham Young University-Idaho<br>April 2022<br><button id="detailsThreeBtn">See more...</button>
+                    Brigham Young University-Idaho<br>April 2022<br><button id="detailsThreeBtn">See details...</button>
                     </p>	
                     <span class="year-location">April 2022 <br> Rexburg, Idaho, U.S.A.</span>
                     <ul id="detailsThree">
@@ -115,7 +115,7 @@
                 
                     <div class="wrapper">
                         <p><strong>PathwayConnect Certificate</strong><br>
-                    BYU-Pathway Worldwide<br>July 2021<br><button id="detailsFourBtn">See more...</button>
+                    BYU-Pathway Worldwide<br>July 2021<br><button id="detailsFourBtn">See details...</button>
                     </p>	
                     <span class="year-location">July 2021 <br>U.S.A.</span>
                     <ul id="detailsFour">
@@ -126,7 +126,7 @@
                         <li>Mathematical reasoning</li>
                         <li>Effective communication</li>
                     </ul>
-                    <a href="">See Certificate</a>
+                    <a href="https://path.byupathway.org/portal/api/Certificate/GetPersonCertificate?providerProgramId=310">See Certificate</a>
                     </div>
                 
             </div>
@@ -134,7 +134,16 @@
             <div id="skills">
                 <h2>Skills</h2>
                 <h3>Programing Skils</h3>
-                <img src="assets/python.png" alt="Python Logo">
+                <div class="images">
+                    <img src="assets/python.png" alt="Python Logo">
+                <img src="assets/js.png" alt="JavaScript Logo">
+                <img src="assets/html.png" alt="HTML Logo">
+                <img src="assets/css.png" alt="CSS Logo">
+                <img src="assets/php.png" alt="PHP Logo">
+                <img src="assets/sql.png" alt="SQL Logo">
+                <img src="assets/git.png" alt="GIT Logo">
+                <img src="assets/OOP.png" alt="Object Oriented Programming Logo">
+                </div>
                 
                 <div id="progSkills"></div>
                 <h3>Other Skills</h3>
@@ -151,6 +160,7 @@
         </main>
         <footer>
             <p id="copyright"></p>
+            <p>Last updated: <span id="lastUpdated"></span></p>
         </footer>
         <script src="js/main.js"></script>
     </body>

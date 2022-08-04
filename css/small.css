@@ -10,7 +10,7 @@ h1, h2, h3{
     /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Koulen', cursive;
 }
-header img{
+#me-image{
     max-width: 200px;
     width: 100%;
     border: 1px solid transparent;
@@ -80,8 +80,8 @@ nav{
 p, li{
     line-height: 1.5;
 }
-main{
-    padding: 10px;
+main {
+    padding: 20px;
 }
 #about h1{
     margin: 0;
@@ -172,4 +172,29 @@ i{
 }
 #experience{
     display: none;
+}
+#skills .images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+#skills .images img{
+    width: 70px;
+}
+footer{
+    background-color: #5A0001;
+    padding: 10px 20px;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: #ACBDBA;
+}
+#about, #projects, #education{
+    padding-bottom: 40px;
+}
+#projects, #education, #skills{
+    padding-top: 40px;
 }
