@@ -10,7 +10,7 @@ h1, h2, h3{
     /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Koulen', cursive;
 }
-#me-image{
+#me-image,#medium-image{
     max-width: 200px;
     width: 100%;
     border: 1px solid transparent;
@@ -19,6 +19,9 @@ h1, h2, h3{
     align-self: center;
     padding: 30px 30px 20px;
     margin-top: 60px;
+}
+#medium-image{
+    display: none;
 }
 h1, h2{
     text-align: center;
