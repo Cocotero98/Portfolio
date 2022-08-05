@@ -30,16 +30,15 @@ let detailsOne = document.querySelector('#detailsOneBtn').addEventListener('clic
 let detailsTwo = document.querySelector('#detailsTwoBtn').addEventListener('click',()=>{toggleMenu('#detailsTwo');changeArrow('#detailsTwoBtn')});
 let detailsThree = document.querySelector('#detailsThreeBtn').addEventListener('click',()=>{toggleMenu('#detailsThree');changeArrow('#detailsThreeBtn')});
 let detailsFour = document.querySelector('#detailsFourBtn').addEventListener('click',()=>{toggleMenu('#detailsFour');changeArrow('#detailsFourBtn')});
-// let windows = document.innerWidth;
-// console.log(window.innerWidth);
+
+
+
 let addEventToNavLinks = function(){
     if (window.innerWidth < 560){
     for(element of navLinks) {
-    // console.log(element);
     element.addEventListener('click',navToggle)
 };
 }else if(window.innerWidth >= 560){for(element of navLinks) {
-    // console.log(element);
     element.removeEventListener('click',navToggle)
 };}
 }

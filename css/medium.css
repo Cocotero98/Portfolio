@@ -63,4 +63,14 @@
     main{
         padding: 40px;
     }
+    .contact-info{
+        text-align: left;
+    }
+    .social-media img{
+        transition: .2s;
+    }
+    .social-media img:hover{
+        transform: scale(1.2);
+    }
+    
 }

@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital@0;1&display=swap');
 
+html{
+    scroll-behavior:smooth;
+}
 body{
     max-width: 1500px;
     font-family: 'Lato', sans-serif;
@@ -55,6 +58,11 @@ header ul li a{
     display: block;
     padding: 10px;
     color: #ACBDBA;
+    transition: text-shadow 0.2s, background-color 0.2s;
+}
+nav ul li a:hover{
+    text-shadow: #ACBDBA 0 0 10px;
+    background-color: #751314;
 }
 header button{
     width: 45px;
@@ -96,6 +104,7 @@ main {
 .contact-info {
     text-align: center;
 }
+
 nav a img{
     width: 45px;
     height: 45px;
@@ -125,6 +134,9 @@ nav a img{
     display: flex;
     flex-direction: column;
     background-color: rgba(3, 1, 97, 0.13);
+}
+a{
+    color: #5A0001;
 }
 #education a{
     border: 1px solid black;
