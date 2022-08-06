@@ -50,10 +50,14 @@
     }
     #projects{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 10% 90%;
     }
+    /* #projects div{
+        margin: 50px;
+    } */
     #projects h2{
         grid-column: 1/4;
+        margin-bottom: 0;
     }
 }
 
