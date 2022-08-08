@@ -175,12 +175,12 @@ iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
-    visibility: hidden;
-    transition: visibility 2s;
+    /* visibility: hidden; */
+    /* transition: visibility 2s; */
 }
-#projects .visible{
+/* #projects .visible{
     visibility: visible;
-}
+} */
 #projects div{
     text-align: center;
     margin-bottom: 40px;
