@@ -167,10 +167,19 @@ a{
 iframe{
     width: 90%;
 }
+.play-video{
+    width: 90%;
+    padding: 70%;
+}
 #projects div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    visibility: hidden;
+    transition: visibility 2s;
+}
+#projects .visible{
+    visibility: visible;
 }
 #projects div{
     text-align: center;
