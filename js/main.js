@@ -51,8 +51,8 @@ window.onresize = addEventToNavLinks;
 //Last updated
 let lastUpdated = new Date(document.lastModified);
 let lastYear = lastUpdated.getFullYear();
-let lastMonth = lastUpdated.getMonth();
-let lastDay = lastUpdated.getDay();
+let lastMonth = lastUpdated.getMonth()+1;
+let lastDay = lastUpdated.getDate();
 let fullDateUpdated = `${lastMonth}-${lastDay}-${lastYear}`
 document.querySelector('#lastUpdated').innerHTML=fullDateUpdated;
 
