@@ -88,8 +88,8 @@ let replace = function(item){
     video.src=content;
     video.title="Pergamino Chamber of Commerce";
     video.frameborder="0";
-    video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-    video.allowfullscreen=true;
+    video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+    video.allowfullscreen="allowfullscreen";
     item.replaceWith(video);
 }
 

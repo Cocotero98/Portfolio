@@ -164,6 +164,7 @@ a{
 }
 iframe{
     width: 90%;
+    margin-bottom: 5px;
 }
 .play-video{
     width: 90%;
@@ -175,6 +176,10 @@ iframe{
     align-items: center;
     /* visibility: hidden; */
     /* transition: visibility 2s; */
+}
+#projects div a{
+    align-self: baseline;
+    padding: 10px 0;
 }
 /* #projects .visible{
     visibility: visible;

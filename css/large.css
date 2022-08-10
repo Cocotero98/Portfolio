@@ -59,6 +59,13 @@
         grid-column: 1/4;
         margin-bottom: 0;
     }
+    #projects div a{
+        padding: 0;
+        margin-bottom: 7px;
+    }
+    iframe{
+        margin-bottom: 15px;
+    }
 }
 
 
