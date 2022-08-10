@@ -162,6 +162,9 @@ a{
     text-decoration:underline;
     color: #5A0001;
 }
+.wrapper button:hover{
+    text-shadow: #5A0001 0 0 3px;
+}
 iframe{
     width: 90%;
     margin-bottom: 5px;
