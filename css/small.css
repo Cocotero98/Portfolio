@@ -163,6 +163,7 @@ a{
     color: #5A0001;
 }
 .wrapper button:hover{
+    cursor: pointer;
     text-shadow: #5A0001 0 0 3px;
 }
 iframe{
