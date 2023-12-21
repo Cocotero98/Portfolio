@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital@0;1&display=swap');
-/*https://coolors.co/acbdba-5a0001-004643-f0a202-e5446d*/
+/*https://coolors.co/acbdba-000022-004643-f0a202-e5446d*/
 html{
     scroll-behavior:smooth;
 }
@@ -60,7 +60,7 @@ header ul li a{
 }
 nav ul li a:hover{
     text-shadow: #ACBDBA 0 0 10px;
-    background-color: #751314;
+    background-color: #001242;
 }
 header button{
     width: 45px;
@@ -79,7 +79,7 @@ header button{
     background-color: transparent;
 }
 nav{
-    background-color: #5A0001;
+    background-color: #000022;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,7 +134,7 @@ nav a img{
     background-color: rgba(3, 1, 97, 0.13);
 }
 a{
-    color: #5A0001;
+    color: #000022;
 }
 #education a{
     border: 1px solid black;
@@ -160,11 +160,11 @@ a{
     border: none;
     background-color: transparent;
     text-decoration:underline;
-    color: #5A0001;
+    color: #000022;
 }
 .wrapper button:hover{
     cursor: pointer;
-    text-shadow: #5A0001 0 0 3px;
+    text-shadow: #000022 0 0 3px;
 }
 iframe{
     width: 90%;
@@ -215,7 +215,7 @@ i{
     width: 70px;
 }
 footer{
-    background-color: #5A0001;
+    background-color: #000022;
     padding: 10px 20px;
 }
 footer p{
